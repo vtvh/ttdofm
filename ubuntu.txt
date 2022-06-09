@@ -1,0 +1,148 @@
+Ubuntu 20.04.4 LTS
+
+## setup keyboard (colemak) and set Capslock as Control
+
+setxkbmap us -variant colemak
+setxkbmap -option ctrl:nocaps
+
+
+## set hotkey: win+m minimize all windows, win+e open home folder
+
+## Bootstrap aliases
+alias uu="sudo apt update && sudo apt upgrade"
+alias i="sudo apt install"
+alias rst="sudo reboot"
+alias sd="sudo systemctl poweroff"
+
+## ssh key
+ssh-keygen -t ed25519 
+
+## add key to github by website
+https://github.com/settings/keys
+
+## check if key worked
+ssh -T git@github.com
+
+## clone settings
+mkdir ~/_workspace && cd ~/_workspace
+git clone git@github.com:vtvh/mysettings.git
+cd mysettings/Linux/ && ./init.sh
+
+## install essentials
+sudo snap install chromium
+sudo snap install code --classic
+
+## install additionals
+
+
+sudo snap install beekeeper-studio
+
+
+
+sudo snap install spotify
+
+
+
+sudo snap install mc-installer
+
+
+
+sudo snap install fromscratch
+
+
+
+sudo snap install wekan
+
+
+
+sudo snap install zenkit
+
+
+
+sudo snap install htop
+
+
+
+sudo snap install gnome-system-monitor
+
+
+
+sudo snap install termius-app
+
+
+
+sudo snap install rclone
+
+
+
+sudo snap install cloudtag
+
+
+
+sudo snap install docker
+
+
+
+sudo snap install nextcloud
+
+
+
+sudo snap install audacity
+
+
+
+sudo snap install youtube-dl
+
+
+
+sudo snap install sickgear
+
+
+
+sudo snap install cornyjokes
+
+
+
+sudo snap install freecad
+
+
+
+sudo snap install inkscape
+
+
+
+sudo snap install buka
+
+
+
+sudo snap install gnome-dictionary
+
+
+
+sudo snap install gnucash-jz
+
+
+
+sudo snap install kcalc
+
+
+
+sudo snap install copay
+
+
+
+sudo snap install chronoburn
+
+
+
+sudo snap install rssnotify
+
+
+
+sudo snap install wallpaperdownloader
+
+
+
+sudo snap install snap-store
+
+sudo snap install ferdium --beta
