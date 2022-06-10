@@ -1,10 +1,9 @@
 Ubuntu 20.04.4 LTS
 
 
-## setup keyboard (colemak) and set Capslock as Control
+## setup keyboard (colemak) and swap Capslock and Control
 
-setxkbmap us -variant colemak
-setxkbmap -option ctrl:nocaps
+setxkbmap us -variant colemak -option "ctrl:nocaps" 
 
 
 ## set hotkey 
@@ -45,7 +44,9 @@ cd mysettings/Linux/ && ./init.sh
 
 ## install essentials
 
-sudo snap install chromium
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
 sudo snap install code --classic
 
 
@@ -81,4 +82,88 @@ sudo snap install wallpaperdownloader
 sudo snap install snap-store
 sudo snap install ferdium --beta
 
+sudo snap install pocket-browser red-app orange-app home-media-server office365webdesktop dashkiosk 
+node puppetry
+
+sudo snap install home-media-server
+sudo snap install office365webdesktop
+sudo snap install dashkiosk
+sudo snap install node
+sudo snap install puppetry
+
+
+google-docs                       2022.6.1               comp-labs          -        Word Processor App for Linux
+google-suggests                   0.1                    caldav             -        Google autocomplete suggestions on the command-line
+google-webapp                     1.3                    mardy              -        Webapps for Google services
+googler                           4.3.2                  snapcrafters       -        Power tool to use Google (Web & News) and Google Site Search from the command-line
+google-translate     
+sftpclient
+imagenes                          2.0.459                ubunturox104       -        An Electron-based Google Photos client
+howdoi
+todoist
+clovery
+drive-password
+easy-installer
+screener
+duplicity
+waybackpy                         0+git.5407681          akamhy             -        Wayback Machine API command-line interface
+sendall                           0.0.13                 customautosys      -        Mass personalised message sending for social networks
+web-kiosk                         0.0.4                  david180975        -        web-kiosk
+mockuuups                         3.6.0                  mockuuups          -        Product mockups, made easy and instantly.
+ddgr                              1.9                    snapcrafters       -        DuckDuckGo from the terminal
+infiniti-clips                    0.2.3                  azure06            -        Clips is a universal clipboard app that automatically saves everything you copy. You can access your history anytime, anywhere.
+motes                             6.0.8                  teledep-dev        -        Modern notes
+simple-weather-app                2.4.0                  oysiyl             -        Simple Weather App
+gdoc-html-cleaner                 0.1.2                  caldav             -        Download Google Docs as cleaned HTML files
+sshpiperd                         0.7.8                  farmer1992         -        The missing reverse proxy for ssh
+pipe2drive                        0.2.2                  dennis-vaerum      -        Pipe your data to Google Drive
+git-repo                          1.12.37-3              jhodapp            -        A tool built on top of Git to manage many Git repositories.
+
+sudo snap install google-docs 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+sudo snap install 
+
+
+
+sudo snap install google-docs
+sudo snap install google-suggests
+sudo snap install google-webapp
+sudo snap install googler
+sudo snap install google-translate     
+sudo snap install sftpclient
+sudo snap install imagenes                          
+sudo snap install howdoi
+sudo snap install todoist
+sudo snap install clovery
+sudo snap install drive-password
+sudo snap install easy-installer
+sudo snap install screener
+sudo snap install duplicity
+sudo snap install waybackpy                         
+sudo snap install sendall                           
+sudo snap install web-kiosk                         
+sudo snap install mockuuups                         
+sudo snap install ddgr                              
+sudo snap install infiniti-clips                    
+sudo snap install motes                             
+sudo snap install simple-weather-app                
+sudo snap install gdoc-html-cleaner                 
+sudo snap install sshpiperd                         
+sudo snap install pipe2drive                        
+sudo snap install git-repo                          
 
