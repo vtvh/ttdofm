@@ -49,6 +49,8 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 sudo snap install code --classic
 
+sudo apt install fcitx fcitx-bogo
+
 
 ## install additionals
 
