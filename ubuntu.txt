@@ -49,10 +49,35 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 sudo snap install code --classic
 
-sudo apt install fcitx fcitx-bogo
+
+### Vietnamese Telex
+sudo apt-get install cmake fcitx-libs-dev python2.7-dev libx11-dev build-essential
+mkdir build; cd build
+cmake -DCMAKE_INSTALL_PREFIX=/usr -DPYTHON_EXECUTABLE=$(which python2.7) ..
+make; sudo make install
+sudo apt-get install --install-recommends fcitx
+
+sudo apt install fcitx-bogo
+### Run im-config and choose fcitx as the active input method. Log out, log in.
 
 
 ## install additionals
+
+sudo apt install anki python2.7-dev libx11-dev build-essential zsh
+### change shell to zsh
+chsh # then Enter
+
+### Brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew install vivid
+brew install go
+brew install bat
+brew install fd
+brew install z
+brew install fzf
+
+### Snap
 
 sudo snap install beekeeper-studio
 sudo snap install spotify
@@ -120,26 +145,6 @@ gdoc-html-cleaner                 0.1.2                  caldav             -   
 sshpiperd                         0.7.8                  farmer1992         -        The missing reverse proxy for ssh
 pipe2drive                        0.2.2                  dennis-vaerum      -        Pipe your data to Google Drive
 git-repo                          1.12.37-3              jhodapp            -        A tool built on top of Git to manage many Git repositories.
-
-sudo snap install google-docs 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-sudo snap install 
-
 
 
 sudo snap install google-docs
