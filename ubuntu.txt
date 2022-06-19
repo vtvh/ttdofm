@@ -3,13 +3,15 @@ Ubuntu 20.04.4 LTS
 
 ## setup keyboard (colemak) and swap Capslock and Control
 
-setxkbmap us -variant colemak -option "ctrl:nocaps" 
+setxkbmap us -variant colemak -option "ctrl:nocaps"
 
 
-## set hotkey 
+## set hotkey
 
 win+m minimize all windows
 win+e open home folder
+win+w close window
+alt+space rofi
 
 
 ## Bootstrap aliases
@@ -22,7 +24,7 @@ alias sd="sudo systemctl poweroff"
 
 ## ssh key
 
-ssh-keygen -t ed25519 
+ssh-keygen -t ed25519
 
 
 ## add key to github by website
@@ -63,9 +65,37 @@ sudo apt install fcitx-bogo
 
 ## install additionals
 
-sudo apt install anki python2.7-dev libx11-dev build-essential zsh
+sudo apt install anki python2.7-dev libx11-dev build-essential zsh xsel rofi daily-quote sxhkd \
+  neovim
+
+### Safari
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+sudo apt-key add winehq.key
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ eoan main'
+sudo apt update
+sudo apt install --install-recommends winehq-stable -y
+
+mkdir -p ~/build/safari
+cd ~/build/safari
+wget http://appldnld.apple.com/Safari5/041-5487.20120509.INU8B/SafariSetup.exe
+wine SafariSetup.exe
+
+
+
 ### change shell to zsh
 chsh # then Enter
+
+### Rust lang
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+cargo install alacritty
+
+### terminator
+sudo add-apt-repository ppa:mattrose/terminator
+sudo apt-get update
+sudo apt install terminator -Y
+
+### fonts
+https://github.com/microsoft/cascadia-code/releases
 
 ### Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -108,8 +138,12 @@ sudo snap install rssnotify
 sudo snap install wallpaperdownloader
 sudo snap install snap-store
 sudo snap install ferdium --beta
+sudo snap install icloud-for-linux
+sudo snap install krita
+sudo snap install apple-music-for-linux
 
-sudo snap install pocket-browser red-app orange-app home-media-server office365webdesktop dashkiosk 
+
+sudo snap install pocket-browser red-app orange-app home-media-server office365webdesktop dashkiosk
 node puppetry
 
 sudo snap install home-media-server
@@ -123,7 +157,7 @@ google-docs                       2022.6.1               comp-labs          -   
 google-suggests                   0.1                    caldav             -        Google autocomplete suggestions on the command-line
 google-webapp                     1.3                    mardy              -        Webapps for Google services
 googler                           4.3.2                  snapcrafters       -        Power tool to use Google (Web & News) and Google Site Search from the command-line
-google-translate     
+google-translate
 sftpclient
 imagenes                          2.0.459                ubunturox104       -        An Electron-based Google Photos client
 howdoi
@@ -151,9 +185,9 @@ sudo snap install google-docs
 sudo snap install google-suggests
 sudo snap install google-webapp
 sudo snap install googler
-sudo snap install google-translate     
+sudo snap install google-translate
 sudo snap install sftpclient
-sudo snap install imagenes                          
+sudo snap install imagenes
 sudo snap install howdoi
 sudo snap install todoist
 sudo snap install clovery
@@ -161,16 +195,15 @@ sudo snap install drive-password
 sudo snap install easy-installer
 sudo snap install screener
 sudo snap install duplicity
-sudo snap install waybackpy                         
-sudo snap install sendall                           
-sudo snap install web-kiosk                         
-sudo snap install mockuuups                         
-sudo snap install ddgr                              
-sudo snap install infiniti-clips                    
-sudo snap install motes                             
-sudo snap install simple-weather-app                
-sudo snap install gdoc-html-cleaner                 
-sudo snap install sshpiperd                         
-sudo snap install pipe2drive                        
-sudo snap install git-repo                          
-
+sudo snap install waybackpy
+sudo snap install sendall
+sudo snap install web-kiosk
+sudo snap install mockuuups
+sudo snap install ddgr
+sudo snap install infiniti-clips
+sudo snap install motes
+sudo snap install simple-weather-app
+sudo snap install gdoc-html-cleaner
+sudo snap install sshpiperd
+sudo snap install pipe2drive
+sudo snap install git-repo
