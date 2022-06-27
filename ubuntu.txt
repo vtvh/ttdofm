@@ -39,6 +39,7 @@ ssh -T git@github.com
 
 ## clone settings
 
+sudo apt install git
 mkdir ~/_workspace && cd ~/_workspace
 git clone git@github.com:vtvh/mysettings.git
 cd mysettings/Linux/ && ./init.sh
