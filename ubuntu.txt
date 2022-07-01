@@ -39,6 +39,7 @@ ssh -T git@github.com
 
 ## clone settings
 
+sudo apt install git -y
 mkdir ~/_workspace && cd ~/_workspace
 git clone git@github.com:vtvh/mysettings.git
 cd mysettings/Linux/ && ./init.sh
@@ -46,9 +47,16 @@ cd mysettings/Linux/ && ./init.sh
 
 ## install essentials
 
+### Terminator
+sudo add-apt-repository ppa:mattrose/terminator
+sudo apt-get update
+sudo apt install terminator -Y
+
+### Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
+# Code
 sudo snap install code --classic
 
 
