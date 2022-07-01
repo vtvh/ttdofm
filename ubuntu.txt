@@ -106,6 +106,12 @@ brew install bat
 brew install fd
 brew install z
 brew install fzf
+brew install rg
+brew install xclip
+brew install ddgr
+brew install clip
+brew install gist
+
 
 ### Snap
 
