@@ -119,6 +119,7 @@ brew install xclip
 brew install ddgr
 brew install clip
 brew install gist
+brew install nmap
 
 
 ### Snap
