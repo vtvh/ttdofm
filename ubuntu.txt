@@ -73,8 +73,7 @@ sudo apt install fcitx-bogo
 
 ## install additionals
 
-sudo apt install anki python2.7-dev libx11-dev build-essential zsh xsel rofi daily-quote sxhkd \
-  neovim
+sudo apt install anki python2.7-dev libx11-dev build-essential zsh xsel rofi daily-quote sxhkd
 
 ### Safari
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
@@ -108,8 +107,10 @@ https://github.com/microsoft/cascadia-code/releases
 ### Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+brew install neovim
 brew install vivid
 brew install go
+brew install rust
 brew install bat
 brew install fd
 brew install z
