@@ -154,7 +154,6 @@ sudo snap install rssnotify
 sudo snap install wallpaperdownloader
 sudo snap install snap-store
 sudo snap install ferdium --beta
-sudo snap install icloud-for-linux
 sudo snap install krita
 sudo snap install apple-music-for-linux
 
