@@ -76,7 +76,20 @@ sudo apt install fcitx-bogo
 
 ## install additionals
 
-sudo apt install anki python2.7-dev libx11-dev build-essential zsh xsel rofi daily-quote sxhkd
+sudo apt install wget anki python2.7-dev libx11-dev build-essential zsh xsel rofi daily-quote sxhkd
+
+### Zoom meeting
+https://zoom.us/client/latest/zoom_amd64.deb
+
+### Teamviewer
+wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+sudo dpkg -i teamviewer_amd64.deb
+
+### Srceen recorder
+sudo wget -q -O - https://screenrec.com/download/pub.asc | sudo apt-key add -
+sudo add-apt-repository 'deb https://screenrec.com/download/ubuntu stable main'
+sudo apt update
+sudo apt install screenrec
 
 ### Safari
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
@@ -110,7 +123,9 @@ https://github.com/microsoft/cascadia-code/releases
 ### Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+brew install ultralist urlview urlwatch
 brew install neovim
+brew install tree
 brew install vivid
 brew install go
 brew install rust
