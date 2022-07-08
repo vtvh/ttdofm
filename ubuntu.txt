@@ -8,10 +8,12 @@ setxkbmap us -variant colemak -option "ctrl:nocaps"
 
 ## set hotkey
 
+```
 win+m minimize all windows
 win+e open home folder
 win+w close window
 alt+space rofi
+```
 
 
 ## Bootstrap aliases
@@ -20,6 +22,7 @@ alias uu="sudo apt update && sudo apt upgrade"
 alias i="sudo apt install"
 alias rst="sudo reboot"
 alias sd="sudo systemctl poweroff"
+alias o="xdg-open"
 
 
 ## ssh key
