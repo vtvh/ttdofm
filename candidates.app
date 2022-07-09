@@ -1,0 +1,39 @@
+clip
+clipper
+clipsafe
+xclip
+clisp              clzip              clp                clib
+ddgr                                  ddh                                   ddd                                   dog
+
+youtube-dl
+youtube-dlc
+youtubedr
+youtubeuploader
+
+google-docs                       2022.6.1               comp-labs          -        Word Processor App for Linux
+google-suggests                   0.1                    caldav             -        Google autocomplete suggestions on the command-line
+google-webapp                     1.3                    mardy              -        Webapps for Google services
+googler                           4.3.2                  snapcrafters       -        Power tool to use Google (Web & News) and Google Site Search from the command-line
+google-translate
+sftpclient
+imagenes                          2.0.459                ubunturox104       -        An Electron-based Google Photos client
+howdoi
+todoist
+clovery
+drive-password
+easy-installer
+screener
+duplicity
+waybackpy                         0+git.5407681          akamhy             -        Wayback Machine API command-line interface
+sendall                           0.0.13                 customautosys      -        Mass personalised message sending for social networks
+web-kiosk                         0.0.4                  david180975        -        web-kiosk
+mockuuups                         3.6.0                  mockuuups          -        Product mockups, made easy and instantly.
+ddgr                              1.9                    snapcrafters       -        DuckDuckGo from the terminal
+infiniti-clips                    0.2.3                  azure06            -        Clips is a universal clipboard app that automatically saves everything you copy. You can access your history anytime, anywhere.
+motes                             6.0.8                  teledep-dev        -        Modern notes
+simple-weather-app                2.4.0                  oysiyl             -        Simple Weather App
+gdoc-html-cleaner                 0.1.2                  caldav             -        Download Google Docs as cleaned HTML files
+sshpiperd                         0.7.8                  farmer1992         -        The missing reverse proxy for ssh
+pipe2drive                        0.2.2                  dennis-vaerum      -        Pipe your data to Google Drive
+git-repo                          1.12.37-3              jhodapp            -        A tool built on top of Git to manage many Git repositories.
+
