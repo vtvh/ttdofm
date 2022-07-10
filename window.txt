@@ -1,0 +1,9 @@
+Window 10 version 1909 build 18363.418
+
+# keyboard setup
+
+CHECK this first https://github.com/vtvh/window-setup
+
+# Scoop install
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+irm get.scoop.sh | iex
