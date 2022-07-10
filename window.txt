@@ -5,29 +5,99 @@ Window 10 version 1909 build 18363.418
 
 CHECK this first https://github.com/vtvh/window-setup
 
+# Automatic mouse and keyboard
+
+https://www.robot-soft.com/AutoMouseKey.msi
 
 # Scoop install
 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
-
-scoop install git
 scoop bucket add extras
-scoop install vscode sharpkeys
-scoop bucket add nerd-fonts
-scoop install Cascadia-Code windows-terminal
 
+## Runtimes
+### Run this as Admin
+scoop install windowsdesktop-runtime-lts
+
+scoop install containerd
+scoop install deno
+scoop install nwjs-sdk
+scoop install openliberty
+scoop install wasmer
+
+## Essentials
+scoop install git
+git config --global init.defaultBranch main
+git config --global user.email vtvh@pm.me
+git config --global user.name vtvh
+
+
+scoop install vscode sharpkeys windows-terminal autohotkey greenshot
+scoop install clink
+scoop install clink-completions
+scoop install clink-flex-prompt
+clink autorun install
+
+scoop bucket add nerd-fonts
+scoop install Cascadia-Code
+scoop install AnonymousPro-NF
+scoop install AnonymousPro-NF-Mono
+
+## Nirsoft
+scoop bucket add nirsoft
+scoop install foldersreport
+scoop install folderchangesview
+scoop install offlineregistryview
+scoop install managewirelessnetworks
+scoop install windowsupdateshistoryviewer
+scoop install driveletterview
+scoop install driverview
+scoop install javascriptanimatorexpress
+scoop install seqdownload
+scoop install edgecookiesview
+scoop install encryptedregview
+scoop install installedpackagesview
+scoop install productkeyscanner
+scoop install regfileexport
+scoop install uninstallview
+scoop install browsinghistoryview
+scoop install webvideocap
+scoop install browserdownloadsview
+scoop install searchmyfiles
+scoop install webbrowserbookmarksview
+scoop install websitesniffer
+scoop install whatinstartup
+
+## Gnu
+scoop install gnucash gnupg gnuplot binutils gdb gcc gimp mingw-winlibs coreutils sort-uniq-wc rust glimpse stunnel audacity gretl uutils-coreutils
+
+## Auto
+scoop install autoactions
+scoop install autoclicker
+scoop install autoit
+scoop install autojump
+scoop install autossh
+scoop install auto-dark-mode-np
+scoop install autoit-script-editor
+scoop install boringproxy
+scoop install notepad2-zufuliu
+
+## Extras
+scoop install wiztree
+scoop install rufus
+scoop install ssd-z
+scoop install syncbackpro
+scoop install snappy-driver-installer-origin
+scoop install ansicon
 scoop install nodejs neovim python citra mongo 0ad bitwarden-cli 64gram
-scoop install autohotkey autoit autoit-srcipt-editor boringproxy
-scoop install windows-application-driver
 scoop install lua-for-windows
 scoop install komorebi
 scoop install workspacer
 scoop install bulk-rename-utility
-
-## Nirsoft
-scoop bucket add nirsoft
-scoop install windowsupdateshistoryviewer
+scoop install gdrive
+scoop install ventoy
+scoop install anaconda3
+scoop install anki
 
 
 # Winget

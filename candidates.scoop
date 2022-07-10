@@ -1,0 +1,9 @@
+scoop bucket add java
+scoop install oraclejre8
+scoop install openjdk
+
+scoop bucket add nonportable
+scoop install flash-drive-tester-np
+scoop install windows-application-driver
+scoop install etcher
+
