@@ -1,9 +1,34 @@
 Window 10 version 1909 build 18363.418
+--------------------------------------
 
 # keyboard setup
 
 CHECK this first https://github.com/vtvh/window-setup
 
+
 # Scoop install
+
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
+
+scoop install git
+scoop bucket add extras
+scoop install vscode sharpkeys
+scoop bucket add nerd-fonts
+scoop install Cascadia-Code windows-terminal
+
+scoop install nodejs neovim python citra mongo 0ad bitwarden-cli 64gram
+scoop install autohotkey autoit autoit-srcipt-editor boringproxy
+scoop install windows-application-driver
+scoop install lua-for-windows
+scoop install komorebi
+scoop install workspacer
+scoop install bulk-rename-utility
+
+## Nirsoft
+scoop bucket add nirsoft
+scoop install windowsupdateshistoryviewer
+
+
+# Winget
+
