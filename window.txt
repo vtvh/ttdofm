@@ -83,6 +83,7 @@ scoop install boringproxy
 scoop install notepad2-zufuliu
 
 ## Extras
+scoop install googlechrome
 scoop install wiztree
 scoop install rufus
 scoop install ssd-z
@@ -93,11 +94,16 @@ scoop install nodejs neovim python citra mongo 0ad bitwarden-cli 64gram
 scoop install lua-for-windows
 scoop install komorebi
 scoop install workspacer
+scoop install protonmail-bridge
+scoop install outlook-google-calendar-sync
+scoop install google-java-format
 scoop install bulk-rename-utility
 scoop install gdrive
 scoop install ventoy
 scoop install anaconda3
 scoop install anki
+
+## Games
 
 
 # Winget
