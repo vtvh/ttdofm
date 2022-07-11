@@ -2,8 +2,38 @@ scoop bucket add java
 scoop install oraclejre8
 scoop install openjdk
 
+scoop install googlechrome
+scoop install anaconda3
+
 scoop bucket add nonportable
 scoop install flash-drive-tester-np
 scoop install windows-application-driver
 scoop install etcher
+scoop install flutter
+scoop install uget-integrator
+scoop install regula
+scoop install auto-dark-mode-np
+scoop install darktable-np
 
+scoop install chromecookiesview
+scoop install webbrowserpassview
+scoop install chromecacheview
+scoop install chromehistoryview
+scoop install chromepass
+scoop install mylastsearch
+scoop install browsinghistoryview
+
+
+Dumo sumo tinynvidia albumart nuget gitxarg cwrsync seqdownloaf freecad kicad inkscape potrace diagram design figma ufoai aida aimp aircrqck waifu katrain dwarf freeciv simutrain sameboy love nircmd fontawsome hackfont nexusfont fontbase$
+Todo: add unikey to scoop
+
+https://www.nirsoft.net/utils/#commandline_utils
+
+
+telegram
+microsoft-windows-terminal
+ultrasearch
+autohotkey
+powertoys
+git
+clink
