@@ -15,6 +15,9 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
 scoop bucket add extras
 
+scoop install sudo
+sudo Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
+
 ## Runtimes
 ### Run this as Admin
 scoop install windowsdesktop-runtime-lts
@@ -31,20 +34,44 @@ git config --global init.defaultBranch main
 git config --global user.email vtvh@pm.me
 git config --global user.name vtvh
 
-
-scoop install vscode sharpkeys windows-terminal autohotkey greenshot
+scoop install wget curl
+scoop install pasteboard
+scoop install vscode sharpkeys windows-terminal autohotkey greenshot neovim
 scoop install clink
 scoop install clink-completions
 scoop install clink-flex-prompt
 clink autorun install
 
+## Fonts
+scoop install fontbase
 scoop bucket add nerd-fonts
+scoop install Font-Awesome
+scoop install Hasklig
+scoop install ProFont-NF
+scoop install ProFont-NF-Mono
+scoop install hack-font
 scoop install Cascadia-Code
 scoop install AnonymousPro-NF
 scoop install AnonymousPro-NF-Mono
 
+
 ## Nirsoft
 scoop bucket add nirsoft
+scoop install nircmd
+
+scoop install bulletspassview
+scoop install iconsextract
+scoop install wirelesskeyview
+scoop install chromepass
+scoop install chromecacheview
+scoop install countrytraceroute
+scoop install diskcountersview
+scoop install dnsquerysniffer
+scoop install downtester
+scoop install clipboardic
+scoop install insideclipboard
+scoop install webcamimagesave
+scoop install winfontsview
 scoop install foldersreport
 scoop install folderchangesview
 scoop install offlineregistryview
@@ -77,34 +104,39 @@ scoop install autoclicker
 scoop install autoit
 scoop install autojump
 scoop install autossh
-scoop install auto-dark-mode-np
 scoop install autoit-script-editor
 scoop install boringproxy
 scoop install notepad2-zufuliu
 
 ## Extras
-scoop install googlechrome
+scoop install dont-sleep
+scoop install thunderbird
 scoop install wiztree
 scoop install rufus
 scoop install ssd-z
 scoop install syncbackpro
 scoop install snappy-driver-installer-origin
 scoop install ansicon
-scoop install nodejs neovim python citra mongo 0ad bitwarden-cli 64gram
+scoop install nodejs
+scoop install python
+scoop install mongo
+scoop install bitwarden-cli
 scoop install lua-for-windows
 scoop install komorebi
 scoop install workspacer
+scoop install 64gram
 scoop install protonmail-bridge
 scoop install outlook-google-calendar-sync
 scoop install google-java-format
 scoop install bulk-rename-utility
 scoop install gdrive
 scoop install ventoy
-scoop install anaconda3
 scoop install anki
 
 ## Games
-
+scoop bucket add games
+scoop install citra
+scoop install 0ad
 
 # Winget
 
