@@ -10,6 +10,10 @@ CHECK this first https://github.com/vtvh/window-setup
 https://www.robot-soft.com/AutoMouseKey.msi
 
 # Scoop install
+https://github.com/ScoopInstaller/Install#readme
+
+## Win 7 install PowerShell first
+https://www.microsoft.com/en-us/download/details.aspx?id=54616
 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
@@ -34,7 +38,7 @@ git config --global init.defaultBranch main
 git config --global user.email vtvh@pm.me
 git config --global user.name vtvh
 
-scoop install wget curl
+scoop install wget curl speedtest-cli
 scoop install pasteboard
 scoop install vscode sharpkeys windows-terminal autohotkey greenshot neovim
 scoop install clink
@@ -59,6 +63,7 @@ scoop install AnonymousPro-NF-Mono
 scoop bucket add nirsoft
 scoop install nircmd
 
+scoop install myeventviewer
 scoop install bulletspassview
 scoop install iconsextract
 scoop install wirelesskeyview
@@ -109,6 +114,7 @@ scoop install boringproxy
 scoop install notepad2-zufuliu
 
 ## Extras
+scoop install dngrep
 scoop install dont-sleep
 scoop install thunderbird
 scoop install wiztree

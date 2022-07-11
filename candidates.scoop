@@ -23,6 +23,10 @@ scoop install chromepass
 scoop install mylastsearch
 scoop install browsinghistoryview
 
+scoop install simpleprogramdebugger
+scoop install urlstringgrabber
+scoop install wirelessnetworkwatcher
+
 
 Dumo sumo tinynvidia albumart nuget gitxarg cwrsync seqdownloaf freecad kicad inkscape potrace diagram design figma ufoai aida aimp aircrqck waifu katrain dwarf freeciv simutrain sameboy love nircmd fontawsome hackfont nexusfont fontbase$
 Todo: add unikey to scoop

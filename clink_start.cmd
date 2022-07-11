@@ -1,11 +1,18 @@
 @echo off
 
+:: Env vars
+:: https://www.howtogeek.com/789660/how-to-use-windows-cmd-environment-variables/
+set TMP=C:\"Example Folder"
+set AUTOIT=%USERPROFILE%\scoop\apps\autoit\autoit\
+
 DOSKEY pb=pbcopy.exe $*
 DOSKEY pbp=pbpaste.exe --lf $*
 
 :: Shortkeys
-DOSKEY c=code.exe $*
-DOSKEY o=chrome.exe $*
+DOSKEY gg=git add -A && git commit -m "Your Message"
+DOSKEY g=git $*
+DOSKEY c=code $*
+DOSKEY o=start chrome $*
 DOSKEY e=explorer.exe $*
 
 :: Commands
