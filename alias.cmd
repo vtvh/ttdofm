@@ -1,5 +1,8 @@
 @echo off
 
+DOSKEY pb=pbcopy.exe $*
+DOSKEY pbp=pbpaste.exe $*
+
 :: Commands
 REM DOSKEY cb=win32yank.exe $*
 REM todo make a bat file and call it
@@ -22,6 +25,18 @@ DOSKEY cif=choco info $*
 REM cup.exe is already choco upgrade
 DOSKEY cunin=choco uninstall $*
 
+:: Scoop
+DOSKEY s=scoop $*
+DOSKEY si=scoop install $*
+DOSKEY sif=scoop info $*
+DOSKEY ss=scoop search $*
+DOSKEY sc=scoop cat $*
+DOSKEY sun=scoop uninstall $*
+DOSKEY sst=scoop status $*
+DOSKEY scl=scoop clean $*
+DOSKEY scf=scoop config $*
+DOSKEY sshim=scoop shim $*
+
 :: Common directories
 DOSKEY ~=cd /d "%USERPROFILE%"
 DOSKEY desktop=cd /d "%USERPROFILE%\desktop"
@@ -29,4 +44,4 @@ DOSKEY cdd=cd /d "F:\IDM"
 DOSKEY cdw=cd /d "%USERPROFILE%\_workspace"
 
 :: Clink
-IF EXIST "%CLINK_DIR%\clink.bat" ("%CLINK_DIR%\clink.bat" inject)
+@REM IF EXIST "%CLINK_DIR%\clink.bat" ("%CLINK_DIR%\clink.bat" inject)
