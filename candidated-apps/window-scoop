@@ -41,3 +41,32 @@ autohotkey
 powertoys
 git
 clink
+
+https://conan.io/
+scoop install csvfileview
+scoop install devdocs
+scoop install emacs
+scoop install mprocs
+scoop install nomacs
+scoop install procs
+scoop install procs
+scoop install ridnacs
+scoop install scriptcs
+scoop install helm-docs
+scoop install electronics-assistant
+https://github.com/muquit/mailsend-go/tree/436ccda99368d5d20f950cadb588ce89287c6637
+scoop install miller
+scoop install csview
+scoop install csvtosql
+scoop install sidebar-diagnostics
+scoop install xsv
+
+scoop install gpg
+scoop install watchman
+scoop install kopia
+scoop install broot
+scoop install gh
+
+scoop install msys2
+ridk install
+scoop install ruby

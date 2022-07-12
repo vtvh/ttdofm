@@ -2,14 +2,17 @@
 
 :: Env vars
 :: https://www.howtogeek.com/789660/how-to-use-windows-cmd-environment-variables/
-set TMP=C:\"Example Folder"
+set TMP=%USERPROFILE%\tmp\
 set AUTOIT=%USERPROFILE%\scoop\apps\autoit\autoit\
+set SCOOPAPPS=%USERPROFILE%\scoop\apps\
+set GITBIN=%USERPROFILE%\scoop\apps\git\current\bin\
+set NVIMPATH=%USERPROFILE%\scoop\apps\neovim\current\bin\nvim.exe
 
 DOSKEY pb=pbcopy.exe $*
 DOSKEY pbp=pbpaste.exe --lf $*
 
 :: Shortkeys
-DOSKEY gg=git add -A && git commit -m "Your Message"
+@REM DOSKEY gg=git add -A && git commit -m "Your Message"
 DOSKEY g=git $*
 DOSKEY c=code $*
 DOSKEY o=start chrome $*
