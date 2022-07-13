@@ -50,6 +50,8 @@ cd mysettings/Linux/ && ./init.sh
 
 ## install essentials
 
+sudo apt install wget anki python2.7-dev libx11-dev build-essential zsh xsel rofi daily-quote sxhkd
+
 ### Terminator
 sudo add-apt-repository ppa:mattrose/terminator
 sudo apt-get update
