@@ -1,3 +1,5 @@
+https://www.torproject.org/download/
+
 scoop bucket add java
 scoop install oraclejre8
 scoop install openjdk
@@ -70,3 +72,6 @@ scoop install gh
 scoop install msys2
 ridk install
 scoop install ruby
+
+rsync rclone
+
