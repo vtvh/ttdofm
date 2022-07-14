@@ -8,12 +8,15 @@ setxkbmap us -variant colemak -option "ctrl:nocaps"
 
 ## set hotkey
 
-```
 win+m minimize all windows
 win+e open home folder
 win+w close window
 alt+space rofi
-```
+
+win+alt+up move to workspace above
+win+alt+down move to workspace below
+win+alt+e move window to workspace above
+win+alt+n move window to workspace below
 
 
 ## Bootstrap aliases
@@ -128,6 +131,7 @@ https://github.com/microsoft/cascadia-code/releases
 ### Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+brew install diff-so-fancy fortune gh
 brew install ultralist urlview urlwatch
 brew install neovim
 brew install tree
