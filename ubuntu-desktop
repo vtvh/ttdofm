@@ -133,6 +133,7 @@ https://github.com/microsoft/cascadia-code/releases
 
 brew install diff-so-fancy fortune gh
 brew install ultralist urlview urlwatch
+brew install bitwarden-cli
 brew install neovim
 brew install tree
 brew install vivid
