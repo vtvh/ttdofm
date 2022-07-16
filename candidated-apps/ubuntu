@@ -38,3 +38,6 @@ pipe2drive                        0.2.2                  dennis-vaerum      -   
 git-repo                          1.12.37-3              jhodapp            -        A tool built on top of Git to manage many Git repositories.
 
 https://www.torproject.org/download/
+
+# mt5
+wget https://download.mql5.com/cdn/web/metaquotes.software.corp/mt5/mt5ubuntu.sh ; chmod +x mt5ubuntu.sh ; ./mt5ubuntu.sh

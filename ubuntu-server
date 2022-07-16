@@ -59,6 +59,8 @@ brew install go
 brew install rust
 brew install ruby
 
+brew install jq
+
 scoop install miller
 scoop install csview
 scoop install csvtosql

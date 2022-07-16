@@ -131,6 +131,7 @@ https://github.com/microsoft/cascadia-code/releases
 ### Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+brew install jq
 brew install diff-so-fancy fortune gh
 brew install ultralist urlview urlwatch
 brew install bitwarden-cli
