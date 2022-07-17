@@ -53,7 +53,8 @@ cd mysettings/Linux/ && ./init.sh
 
 ## install essentials
 
-sudo apt install wget anki python2.7-dev libx11-dev build-essential zsh xsel rofi daily-quote sxhkd
+sudo apt install wget anki python2.7-dev libx11-dev build-essential zsh xsel rofi fortune sxhkd
+sudo apt-get install nmap
 
 ### Terminator
 sudo add-apt-repository ppa:mattrose/terminator
@@ -149,7 +150,6 @@ brew install xclip
 brew install ddgr
 brew install clip
 brew install gist
-brew install nmap
 
 
 ### Snap

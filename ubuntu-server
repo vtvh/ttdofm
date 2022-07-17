@@ -45,7 +45,7 @@ cd mysettings/Linux/ && ./init.sh && zsh
 ## install essentials
 
 sudo apt-get update
-sudo apt-get install -y wget python2.7-dev build-essential
+sudo apt-get install -y wget python2.7-dev build-essential nmap
 
 
 ### Brew
@@ -89,7 +89,6 @@ brew install xclip
 brew install ddgr
 brew install clip
 brew install gist
-brew install nmap
 
 # Vscode-server
 https://code.visualstudio.com/docs/remote/vscode-server
