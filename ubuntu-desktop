@@ -1,9 +1,20 @@
 Ubuntu 20.04.4 LTS
 
+## install essentials
+
+sudo apt-get update
+sudo apt-get install git -y
+sudo apt-install net-tools wget curl anki python2.7-dev \
+  libx11-dev build-essential zsh xsel rofi fortune \
+  sxhkd xdotool xcape
+sudo apt-get install nmap
+sudo apt-get install stow
+
 
 ## setup keyboard (colemak) and swap Capslock and Control
 
 setxkbmap us -variant colemak -option "ctrl:nocaps"
+xcape -e 'Control_L=Escape' -t 175
 
 
 ## set hotkey
@@ -45,20 +56,13 @@ ssh -T git@github.com
 
 ## clone settings
 
-sudo apt install git -y
 mkdir ~/_workspace && cd ~/_workspace
 git clone git@github.com:vtvh/mysettings.git
 cd mysettings/Linux/ && ./init.sh
 
 
-## install essentials
-
-sudo apt-install net-tools wget curl anki python2.7-dev \
-  libx11-dev build-essential zsh xsel rofi fortune sxhkd xdotool
-sudo apt-get install nmap
-sudo apt-get install stow
-
 ### Terminator
+
 sudo add-apt-repository ppa:mattrose/terminator
 sudo apt-get update
 sudo apt install terminator -Y
