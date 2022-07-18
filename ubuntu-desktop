@@ -53,8 +53,10 @@ cd mysettings/Linux/ && ./init.sh
 
 ## install essentials
 
-sudo apt install wget anki python2.7-dev libx11-dev build-essential zsh xsel rofi fortune sxhkd
+sudo apt-install net-tools wget curl anki python2.7-dev \
+  libx11-dev build-essential zsh xsel rofi fortune sxhkd xdotool
 sudo apt-get install nmap
+sudo apt-get install stow
 
 ### Terminator
 sudo add-apt-repository ppa:mattrose/terminator
@@ -153,6 +155,19 @@ brew install gist
 
 
 ### Snap
+
+sudo snap install telegram-desktop
+sudo snap install telegram-cli
+sudo snap install smartscreen
+sudo snap install singlebox
+sudo snap install anbox-installer
+sudo snap install sscreen
+sudo snap install squirrelbot
+sudo snap install repeat
+sudo snap install feedreader
+sudo snap install good-job
+sudo snap install monexec
+
 
 sudo snap install beekeeper-studio
 sudo snap install spotify
