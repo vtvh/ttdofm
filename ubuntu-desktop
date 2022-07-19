@@ -9,7 +9,7 @@ sudo apt-install net-tools wget curl anki python2.7-dev \
   sxhkd xdotool xcape
 sudo apt-get install nmap
 sudo apt-get install stow
-sudo apt-get install unrar 7zip
+sudo apt-get install unrar
 
 
 ## setup keyboard (colemak) and swap Capslock and Control
