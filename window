@@ -46,22 +46,24 @@ scoop install clink
 scoop install clink-completions
 scoop install clink-flex-prompt
 clink autorun install
+flexprompt configure
+code %USERPROFILE%\scoop\apps\clink-flex-prompt\0.10\flexprompt_autoconfig.lua
 
-[C:\Users\andre]
-> clink autorun install
-Current AutoRun values
+@REM [C:\Users\andre]
+@REM > clink autorun install
+@REM Current AutoRun values
 
-  Current user:
+@REM   Current user:
 
-    native : %USERPROFILE%\alias.cmd&"C:\PROGRA~2\clink\043213~1.9\clink.bat" inject --autorun
-     wow64 : "C:\PROGRA~2\clink\043213~1.9\clink.bat" inject --autorun
+@REM     native : %USERPROFILE%\alias.cmd&"C:\PROGRA~2\clink\043213~1.9\clink.bat" inject --autorun
+@REM      wow64 : "C:\PROGRA~2\clink\043213~1.9\clink.bat" inject --autorun
 
-  All users:
+@REM   All users:
 
-    native : <unset>
-     wow64 : <unset>
+@REM     native : <unset>
+@REM      wow64 : <unset>
 
-Clink successfully installed to run when cmd.exe starts (for current user).
+@REM Clink successfully installed to run when cmd.exe starts (for current user).
 
 
 
