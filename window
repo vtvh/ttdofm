@@ -137,11 +137,12 @@ scoop install dngrep
 scoop install dont-sleep
 scoop install thunderbird
 scoop install wiztree
-scoop install rufus
 scoop install ssd-z
 scoop install syncbackpro
-scoop install snappy-driver-installer-origin
 scoop install ansicon
+
+scoop install rufus
+scoop install snappy-driver-installer-origin
 scoop install nodejs
 scoop install python
 scoop install mongo
