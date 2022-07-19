@@ -22,7 +22,7 @@ DOSKEY e=explorer.exe $*
 REM DOSKEY cb=win32yank.exe $*
 REM todo make a bat file and call it
 REM DOSKEY runmyahk=ahk.exe foo bar baz
-DOSKEY alias=code "%USERPROFILE%\clink_start.cmd"
+DOSKEY alias=code "%USERPROFILE%\_workspace\ttdofm\clink_start.cmd"
 DOSKEY myahk=code "%USERPROFILE%\_workspace\myahk"
 DOSKEY npp=start notepad++ $*
 DOSKEY spy=start ahk.exe "C:\Program Files\AutoHotkey\WindowSpy.ahk"
@@ -45,9 +45,45 @@ DOSKEY sshim=scoop shim $*
 
 :: Common directories
 DOSKEY ~=cd /d "%USERPROFILE%"
-DOSKEY desktop=cd /d "%USERPROFILE%\desktop"
-DOSKEY cdd=cd /d "F:\IDM"
+DOSKEY cdd=cd /d "%USERPROFILE%\desktop"
+DOSKEY cddl=cd /d "F:\IDM"
 DOSKEY cdw=cd /d "%USERPROFILE%\_workspace"
 
 :: Clink
 @REM IF EXIST "%CLINK_DIR%\clink.bat" ("%CLINK_DIR%\clink.bat" inject)
+
+:: Winget
+DOSKEY wi=winget install $*
+DOSKEY ws=winget show $*
+DOSKEY wls=winget list $*
+
+@REM > winget
+@REM Windows Package Manager v1.2.11601
+@REM Copyright (c) Microsoft Corporation. All rights reserved.
+
+@REM The winget command line utility enables installing applications and other packages from the command line.
+
+@REM usage: winget [<command>] [<options>]
+
+@REM The following commands are available:
+@REM   install    Installs the given package
+@REM   show       Shows information about a package
+@REM   source     Manage sources of packages
+@REM   search     Find and show basic info of packages
+@REM   list       Display installed packages
+@REM   upgrade    Upgrades the given package
+@REM   uninstall  Uninstalls the given package
+@REM   hash       Helper to hash installer files
+@REM   validate   Validates a manifest file
+@REM   settings   Open settings or set administrator settings
+@REM   features   Shows the status of experimental features
+@REM   export     Exports a list of the installed packages
+@REM   import     Installs all the packages in a file
+
+@REM For more details on a specific command, pass it the help argument. [-?]
+
+@REM The following options are available:
+@REM   -v,--version  Display the version of the tool
+@REM   --info        Display general info of the tool
+
+@REM More help can be found at: https://aka.ms/winget-command-help
