@@ -12,7 +12,8 @@ DOSKEY pb=pbcopy.exe $*
 DOSKEY pbp=pbpaste.exe --lf $*
 
 :: Shortkeys
-@REM DOSKEY gg=git add -A && git commit -m "Your Message"
+@REM DOSKEY gg='git add -A && git commit -m "Your Message"'
+@REM git init && gh repo create --public --source=. --remote=upstream
 DOSKEY g=git $*
 DOSKEY c=code $*
 DOSKEY o=start chrome $*
