@@ -9,6 +9,7 @@ sudo apt-install net-tools wget curl anki python2.7-dev \
   sxhkd xdotool xcape
 sudo apt-get install nmap
 sudo apt-get install stow
+sudo apt-get install unrar 7zip
 
 
 ## setup keyboard (colemak) and swap Capslock and Control
@@ -156,6 +157,9 @@ brew install xclip
 brew install ddgr
 brew install clip
 brew install gist
+
+brew install rsync
+brew install rclone
 
 
 ### Snap
