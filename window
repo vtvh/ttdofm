@@ -41,10 +41,31 @@ git config --global user.name vtvh
 scoop install wget curl speedtest-cli
 scoop install pasteboard
 scoop install vscode sharpkeys windows-terminal autohotkey greenshot neovim
+
 scoop install clink
 scoop install clink-completions
 scoop install clink-flex-prompt
 clink autorun install
+flexprompt configure
+code %USERPROFILE%\scoop\apps\clink-flex-prompt\0.10\flexprompt_autoconfig.lua
+
+@REM [C:\Users\andre]
+@REM > clink autorun install
+@REM Current AutoRun values
+
+@REM   Current user:
+
+@REM     native : %USERPROFILE%\alias.cmd&"C:\PROGRA~2\clink\043213~1.9\clink.bat" inject --autorun
+@REM      wow64 : "C:\PROGRA~2\clink\043213~1.9\clink.bat" inject --autorun
+
+@REM   All users:
+
+@REM     native : <unset>
+@REM      wow64 : <unset>
+
+@REM Clink successfully installed to run when cmd.exe starts (for current user).
+
+
 
 ## Fonts
 scoop install fontbase
@@ -118,11 +139,12 @@ scoop install dngrep
 scoop install dont-sleep
 scoop install thunderbird
 scoop install wiztree
-scoop install rufus
 scoop install ssd-z
 scoop install syncbackpro
-scoop install snappy-driver-installer-origin
 scoop install ansicon
+
+scoop install rufus
+scoop install snappy-driver-installer-origin
 scoop install nodejs
 scoop install python
 scoop install mongo
