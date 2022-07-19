@@ -41,10 +41,29 @@ git config --global user.name vtvh
 scoop install wget curl speedtest-cli
 scoop install pasteboard
 scoop install vscode sharpkeys windows-terminal autohotkey greenshot neovim
+
 scoop install clink
 scoop install clink-completions
 scoop install clink-flex-prompt
 clink autorun install
+
+[C:\Users\andre]
+> clink autorun install
+Current AutoRun values
+
+  Current user:
+
+    native : %USERPROFILE%\alias.cmd&"C:\PROGRA~2\clink\043213~1.9\clink.bat" inject --autorun
+     wow64 : "C:\PROGRA~2\clink\043213~1.9\clink.bat" inject --autorun
+
+  All users:
+
+    native : <unset>
+     wow64 : <unset>
+
+Clink successfully installed to run when cmd.exe starts (for current user).
+
+
 
 ## Fonts
 scoop install fontbase
