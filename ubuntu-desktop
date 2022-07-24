@@ -9,6 +9,14 @@ sudo apt-install net-tools wget curl anki python2.7-dev \
   sxhkd xdotool xcape
 sudo apt-get install nmap
 sudo apt-get install stow
+sudo apt-get install unrar
+
+https://github.com/zbaylin/rofi-wifi-menu
+mkdir -p ~/_workspace/forks/rofi-wifi-menu
+git clone https://github.com/zbaylin/rofi-wifi-menu.git
+cd rofi-wifi-menu
+# set in hotkeys
+bash ~/_workspace/forks/rofi-wifi-menu/rofi-wifi-menu.sh
 
 
 ## setup keyboard (colemak) and swap Capslock and Control
@@ -22,7 +30,10 @@ xcape -e 'Control_L=Escape' -t 175
 win+m minimize all windows
 win+e open home folder
 win+w close window
-alt+space rofi
+
+alt+space       rofi
+alt+,           rofi wifi
+alt+super+space activate window menu
 
 win+alt+up move to workspace above
 win+alt+down move to workspace below
@@ -156,6 +167,9 @@ brew install xclip
 brew install ddgr
 brew install clip
 brew install gist
+
+brew install rsync
+brew install rclone
 
 
 ### Snap
