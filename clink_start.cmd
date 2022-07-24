@@ -34,6 +34,7 @@ DOSKEY scene="C:\Users\andre\AppData\Local\SceneBuilder\SceneBuilder.exe" $*
 
 :: Scoop
 DOSKEY s=scoop $*
+DOSKEY sba=scoop bucket add $*
 DOSKEY si=scoop install $*
 DOSKEY sif=scoop info $*
 DOSKEY ss=scoop search $*
