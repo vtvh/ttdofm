@@ -73,5 +73,5 @@ scoop install msys2
 ridk install
 scoop install ruby
 
-rsync rclone
+scoop install cwrsync rclone
 
