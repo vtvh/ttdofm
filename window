@@ -1,29 +1,31 @@
 Window 10 version 1909 build 18363.418
 --------------------------------------
 
-# keyboard setup
+@REM # keyboard setup
 
 CHECK this first https://github.com/vtvh/window-setup
 
-# Automatic mouse and keyboard
+@REM # Automatic mouse and keyboard
 
 https://www.robot-soft.com/AutoMouseKey.msi
 
-# Scoop install
+@REM # Scoop install
 https://github.com/ScoopInstaller/Install#readme
 
-## Win 7 install PowerShell first
+@REM ## Win 7 install PowerShell first
 https://www.microsoft.com/en-us/download/details.aspx?id=54616
 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
+
+scoop install sudo git
 scoop bucket add extras
 
-scoop install sudo
 sudo Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
 
-## Runtimes
-### Run this as Admin
+
+@REM ## Runtimes this as Admin
+
 scoop install windowsdesktop-runtime-lts
 
 scoop install containerd
@@ -32,7 +34,7 @@ scoop install nwjs-sdk
 scoop install openliberty
 scoop install wasmer
 
-## Essentials
+@REM ## Essentials
 scoop install git
 git config --global init.defaultBranch main
 git config --global user.email vtvh@pm.me
@@ -67,7 +69,7 @@ code %USERPROFILE%\scoop\apps\clink-flex-prompt\0.10\flexprompt_autoconfig.lua
 
 
 
-## Fonts
+@REM ## Fonts
 scoop install fontbase
 scoop bucket add nerd-fonts
 scoop install Font-Awesome
@@ -80,7 +82,7 @@ scoop install AnonymousPro-NF
 scoop install AnonymousPro-NF-Mono
 
 
-## Nirsoft
+@REM ## Nirsoft
 scoop bucket add nirsoft
 scoop install nircmd
 
@@ -121,10 +123,10 @@ scoop install webbrowserbookmarksview
 scoop install websitesniffer
 scoop install whatinstartup
 
-## Gnu
+@REM ## Gnu
 scoop install gnucash gnupg gnuplot binutils gdb gcc gimp mingw-winlibs coreutils sort-uniq-wc rust glimpse stunnel audacity gretl uutils-coreutils
 
-## Auto
+@REM ## Auto
 scoop install autoactions
 scoop install autoclicker
 scoop install autoit
@@ -134,7 +136,7 @@ scoop install autoit-script-editor
 scoop install boringproxy
 scoop install notepad2-zufuliu
 
-## Extras
+@REM ## Extras
 scoop install dngrep
 scoop install dont-sleep
 scoop install thunderbird
@@ -161,10 +163,10 @@ scoop install gdrive
 scoop install ventoy
 scoop install anki
 
-## Games
+@REM ## Games
 scoop bucket add games
 scoop install citra
 scoop install 0ad
 
-# Winget
+@REM # Winget
 
