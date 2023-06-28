@@ -43,7 +43,7 @@ win+alt+n move window to workspace below
 
 ## Bootstrap aliases
 
-alias uu="sudo apt update && sudo apt upgrade"
+alias uu="sudo apt update && sudo apt upgrade -y"
 alias i="sudo apt install"
 alias rst="sudo reboot"
 alias sd="sudo systemctl poweroff"
