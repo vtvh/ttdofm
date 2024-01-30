@@ -1,5 +1,7 @@
 Window 10 version 1909 build 18363.418
 --------------------------------------
+## Install Scoop.sh
+iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 
 @REM # keyboard setup
 
