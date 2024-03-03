@@ -127,19 +127,12 @@ cd ~/build/safari
 wget http://appldnld.apple.com/Safari5/041-5487.20120509.INU8B/SafariSetup.exe
 wine SafariSetup.exe
 
-
-
 ### change shell to zsh
 chsh # then Enter
 
 ### Rust lang
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 cargo install alacritty
-
-### terminator
-sudo add-apt-repository ppa:mattrose/terminator
-sudo apt-get update
-sudo apt install terminator -Y
 
 ### fonts
 https://github.com/microsoft/cascadia-code/releases
