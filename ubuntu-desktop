@@ -4,7 +4,6 @@ Ubuntu 20.04.4 LTS
 https://www.warp.dev/
 
 ## install essentials
-
 sudo apt-get update
 sudo apt-get install git -y
 sudo apt-install net-tools wget curl anki python2.7-dev \
@@ -23,13 +22,11 @@ bash ~/_workspace/forks/rofi-wifi-menu/rofi-wifi-menu.sh
 
 
 ## setup keyboard (colemak) and swap Capslock and Control
-
 setxkbmap us -variant colemak -option "ctrl:nocaps"
 xcape -e 'Control_L=Escape' -t 175
 
 
 ## set hotkey
-
 win+m minimize all windows
 win+e open home folder
 win+w close window
@@ -45,7 +42,6 @@ win+alt+n move window to workspace below
 
 
 ## Bootstrap aliases
-
 alias uu="sudo apt update && sudo apt upgrade -y"
 alias i="sudo apt install"
 alias rst="sudo reboot"
@@ -54,9 +50,8 @@ alias o="xdg-open"
 
 
 ## ssh key
-
 ssh-keygen -t ed25519
-
+cat ~/.ssh/id_ed25519.pub 
 
 ## add key to github by website
 
