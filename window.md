@@ -1,10 +1,10 @@
 Window 10 version 1909 build 18363.418
 --------------------------------------
 ## NINITE
-https://ninite.com/chrome-faststone-foxit-gimp-greenshot-klitecodecs-notepadplusplus-putty-qbittorrent-spotify-steam-vscode-windirstat-winscp/
+`https://ninite.com/chrome-faststone-foxit-gimp-greenshot-klitecodecs-notepadplusplus-putty-qbittorrent-spotify-steam-vscode-windirstat-winscp/`
 
 ## Install Scoop.sh
-iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
+`iex "& {$(irm get.scoop.sh)} -RunAsAdmin"`
 
 @REM # keyboard setup
 
