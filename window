@@ -20,7 +20,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=54616
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
 
-scoop install sudo git python colemak
+scoop install sudo git python 
 scoop bucket add extras
 
 sudo Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
