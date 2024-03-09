@@ -14,7 +14,7 @@ CHECK this first https://github.com/vtvh/window-setup
 
 https://www.robot-soft.com/AutoMouseKey.msi
 
-@REM # Scoop install
+## Scoop install
 https://github.com/ScoopInstaller/Install#readme
 
 @REM ## Win 7 install PowerShell first
@@ -26,10 +26,17 @@ irm get.scoop.sh | iex
 scoop install sudo git python 
 scoop bucket add extras
 
+scoop install wget curl speedtest-cli
+scoop install pasteboard
+scoop install sharpkeys windows-terminal autohotkey greenshot neovim
+
 sudo Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
 
+## Gnu
+scoop install gnupg gnuplot binutils gdb gcc mingw-winlibs coreutils sort-uniq-wc stunnel gretl uutils-coreutils
 
-@REM ## Runtimes this as Admin
+
+## Runtimes this as Admin
 
 scoop install windowsdesktop-runtime-lts
 
@@ -45,9 +52,7 @@ git config --global init.defaultBranch main
 git config --global user.email vtvh@pm.me
 git config --global user.name vtvh
 
-scoop install wget curl speedtest-cli
-scoop install pasteboard
-scoop install vscode sharpkeys windows-terminal autohotkey greenshot neovim
+
 
 scoop install clink
 scoop install clink-completions
@@ -128,8 +133,6 @@ scoop install webbrowserbookmarksview
 scoop install websitesniffer
 scoop install whatinstartup
 
-@REM ## Gnu
-scoop install gnucash gnupg gnuplot binutils gdb gcc gimp mingw-winlibs coreutils sort-uniq-wc rust glimpse stunnel audacity gretl uutils-coreutils
 
 @REM ## Auto
 scoop install autoactions
