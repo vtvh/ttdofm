@@ -1,43 +1,73 @@
 Window 10 version 1909 build 18363.418
+and Window 11 22H2
 --------------------------------------
+
+## Keyboard setup
+- Download Colemak layout
+```
+https://colemak.com/pub/windows/Colemak-1.1-Caps-Lock-Unchanged.zip
+```
+- Also, check this too
+```
+https://github.com/vtvh/window-setup
+```
+
+## RDP and SSH
+`todo`
+
 ## NINITE
 `https://ninite.com/chrome-faststone-foxit-gimp-greenshot-klitecodecs-notepadplusplus-putty-qbittorrent-spotify-steam-vscode-windirstat-winscp/`
 
 ## Install Scoop.sh
 `iex "& {$(irm get.scoop.sh)} -RunAsAdmin"`
 
-@REM # keyboard setup
+or
 
-CHECK this first https://github.com/vtvh/window-setup
-
-@REM # Automatic mouse and keyboard
-
-https://www.robot-soft.com/AutoMouseKey.msi
-
-## Scoop install
-https://github.com/ScoopInstaller/Install#readme
-
-@REM ## Win 7 install PowerShell first
-https://www.microsoft.com/en-us/download/details.aspx?id=54616
-
+```cmd
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
-
-scoop install sudo git python 
+```
+```
+scoop install sudo git python zip unzip unrar
 scoop bucket add extras
+
 
 scoop install wget curl speedtest-cli
 scoop install pasteboard
 scoop install sharpkeys windows-terminal autohotkey greenshot neovim
 
 sudo Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
+```
+```
+git config --global init.defaultBranch main
+git config --global user.email vtvh@pm.me
+git config --global user.name vtvh
+```
+```
+scoop install clink
+scoop install clink-completions
+scoop install clink-flex-prompt
+clink autorun install
+flexprompt configure
+code %USERPROFILE%\scoop\apps\clink-flex-prompt\0.10\flexprompt_autoconfig.lua
+```
 
 ## Gnu
-scoop install gnupg gnuplot binutils gdb gcc mingw-winlibs coreutils sort-uniq-wc stunnel gretl uutils-coreutils
+```
+scoop install mingw
+scoop install gcc
+scoop install gdb
+scoop install unxutils
+scoop install mc
+scoop install binutils
+scoop install gnupg
+scoop install gnuplot
+scoop install coreutils
+```
 
 
-## Runtimes this as Admin
-
+## Runtimes, run as Admin
+```
 scoop install windowsdesktop-runtime-lts
 
 scoop install containerd
@@ -45,41 +75,10 @@ scoop install deno
 scoop install nwjs-sdk
 scoop install openliberty
 scoop install wasmer
+```
 
-@REM ## Essentials
-scoop install git
-git config --global init.defaultBranch main
-git config --global user.email vtvh@pm.me
-git config --global user.name vtvh
-
-
-
-scoop install clink
-scoop install clink-completions
-scoop install clink-flex-prompt
-clink autorun install
-flexprompt configure
-code %USERPROFILE%\scoop\apps\clink-flex-prompt\0.10\flexprompt_autoconfig.lua
-
-@REM [C:\Users\andre]
-@REM > clink autorun install
-@REM Current AutoRun values
-
-@REM   Current user:
-
-@REM     native : %USERPROFILE%\alias.cmd&"C:\PROGRA~2\clink\043213~1.9\clink.bat" inject --autorun
-@REM      wow64 : "C:\PROGRA~2\clink\043213~1.9\clink.bat" inject --autorun
-
-@REM   All users:
-
-@REM     native : <unset>
-@REM      wow64 : <unset>
-
-@REM Clink successfully installed to run when cmd.exe starts (for current user).
-
-
-
-@REM ## Fonts
+## Fonts
+```
 scoop install fontbase
 scoop bucket add nerd-fonts
 scoop install Font-Awesome
@@ -90,9 +89,10 @@ scoop install hack-font
 scoop install Cascadia-Code
 scoop install AnonymousPro-NF
 scoop install AnonymousPro-NF-Mono
+```
 
-
-@REM ## Nirsoft
+## Nirsoft
+```
 scoop bucket add nirsoft
 scoop install nircmd
 
@@ -132,9 +132,11 @@ scoop install searchmyfiles
 scoop install webbrowserbookmarksview
 scoop install websitesniffer
 scoop install whatinstartup
+```
 
 
-@REM ## Auto
+## Auto
+```
 scoop install autoactions
 scoop install autoclicker
 scoop install autoit
@@ -143,8 +145,10 @@ scoop install autossh
 scoop install autoit-script-editor
 scoop install boringproxy
 scoop install notepad2-zufuliu
+```
 
-@REM ## Extras
+## Extras
+```
 scoop install dngrep
 scoop install dont-sleep
 scoop install thunderbird
@@ -169,11 +173,10 @@ scoop install bulk-rename-utility
 scoop install gdrive
 scoop install ventoy
 scoop install anki
+```
 
-@REM ## Games
-scoop bucket add games
-scoop install citra
-scoop install 0ad
+## Automatic mouse and keyboard
+https://www.robot-soft.com/AutoMouseKey.msi
 
-@REM # Winget
-
+## Win 7 install PowerShell first
+https://www.microsoft.com/en-us/download/details.aspx?id=54616
