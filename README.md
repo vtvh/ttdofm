@@ -1,9 +1,12 @@
 # ttdofm
 Things to do on fresh machine
 
-If on VPS, go here https://github.com/vtvh/ttdofm/blob/main/ubuntu-server
+If on VPS, go here https://github.com/vtvh/ttdofm/blob/main/vps/ubuntu.md
 
 If on Windows 10, go here https://github.com/vtvh/ttdofm/blob/main/window.md
+
+If on Ubuntu desktop, go here https://github.com/vtvh/ttdofm/blob/main/ubuntu-desktop.md
+
 
 <!-- ## setup keyboard (colemak) and swap Capslock and Control
 ```
