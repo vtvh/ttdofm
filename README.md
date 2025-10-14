@@ -7,16 +7,20 @@ If on Windows 10, go here https://github.com/vtvh/ttdofm/blob/main/window.md
 
 If on Ubuntu desktop, go here https://github.com/vtvh/ttdofm/blob/main/ubuntu-desktop.md
 
+## For other settings, go here:
+https://github.com/vtvh/mysettings
+
 
 <!-- ## setup keyboard (colemak) and swap Capslock and Control
 ```
 setxkbmap us -variant colemak -option "ctrl:nocaps"
 xcape -e 'Control_L=Escape' -t 175
 ``` -->
-## must have these program:
+
+<!-- ## must have these program:
 fd bat neovim
 vim with full plugins
-tree with full colors
+tree with full colors -->
 
 <!--
 ## do like this
