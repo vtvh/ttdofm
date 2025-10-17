@@ -68,13 +68,12 @@ DOSKEY ~=cd /d "%USERPROFILE%"
 DOSKEY hm=cd /d "%USERPROFILE%"
 DOSKEY cdw=cd /d "%USERPROFILE%\_workspace"
 
-@REM TODO: fix these directories
-@REM DOSKEY cdd=cd /d "%USERPROFILE%\desktop"
-@REM DOSKEY cddl=cd /d "F:\IDM"
+DOSKEY cddl=cd /d "D:\dl"
+DOSKEY cdd=cd /d "D:\d"
+DOSKEY doc=cd /d "D:\doc"
 
 
 :: Winget
 DOSKEY wi=winget install $*
 DOSKEY ws=winget show $*
 DOSKEY wls=winget list $*
-
