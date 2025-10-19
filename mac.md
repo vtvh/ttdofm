@@ -16,6 +16,8 @@ cd mysettings/Linux
 ./init.sh
 ```
 
+Go to https://github.com/settings/keys and add the copied key.
+
 AI Gen below
 ----------------------------------
 # Trackpad
