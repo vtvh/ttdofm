@@ -5,6 +5,17 @@ Setting, especially accesbility settings, for Mac OS.
 - Capslock as Control:
   - System Preferences -> Keyboard -> Modifier Keys -> Change Caps Lock to Control
 
+# Terminal
+```sh
+ssh-keygen -t ed25519
+cat ~/.ssh/id_ed25519.pub
+mkdir ~/_workspace
+cd ~/_workspace
+git clone git@github.com:vtvh/mysettings.git
+cd mysettings/Linux
+./init.sh
+```
+
 AI Gen below
 ----------------------------------
 # Trackpad
