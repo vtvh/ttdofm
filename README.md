@@ -1,11 +1,12 @@
 # ttdofm
-Things to do on fresh machine
+`Things to do on fresh machine`
 
-If on VPS, go here https://github.com/vtvh/ttdofm/blob/main/vps/ubuntu.md
+- If on VPS, go here https://github.com/vtvh/ttdofm/blob/main/vps/ubuntu.md
 
-If on Windows 10, go here https://github.com/vtvh/ttdofm/blob/main/window.md
+- If on Windows 10, go here https://github.com/vtvh/ttdofm/blob/main/window.md
 
-If on Ubuntu desktop, go here https://github.com/vtvh/ttdofm/blob/main/ubuntu-desktop.md
+- If on Ubuntu desktop, go here https://github.com/vtvh/ttdofm/blob/main/ubuntu-desktop.md
+- Kali:  https://github.com/vtvh/ttdofm/blob/main/kali.md
 
 ## For other settings, go here:
 https://github.com/vtvh/mysettings
