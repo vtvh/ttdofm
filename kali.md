@@ -1,6 +1,6 @@
 
 # COLEMAK layout & Capslock as Ctrl
-setxkbmap us -variant colemak -option "ctrl:nocaps"
+`setxkbmap us -variant colemak -option "ctrl:nocaps"`
 
 # start SSHD
 - check if installed:
@@ -13,3 +13,6 @@ sudo systemctl start ssh
 sudo systemctl enable ssh
 sudo systemctl status ssh
 ```
+
+# also, worth consulting documentation-label issues 
+- https://github.com/vtvh/ttdofm/issues?q=is%3Aissue+state%3Aopen+label%3Adocumentation
